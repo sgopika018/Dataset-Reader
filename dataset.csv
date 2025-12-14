@@ -1,0 +1,7 @@
+City,Date,Temperature (°C),Humidity (%),Rainfall (mm),Condition
+Coimbatore,2025-10-09,32,65,2,Sunny
+Chennai,2025-10-09,35,70,0,Hot
+Madurai,2025-10-09,34,60,5,Rainy
+Tiruppur,2025-10-09,31,68,1,Cloudy
+Salem,2025-10-09,30,75,8,Rainy
+Erode,2025-10-09,33,62,0,Sunny
