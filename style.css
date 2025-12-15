@@ -1,0 +1,139 @@
+body {
+  background: linear-gradient(135deg, #89f7fe, #66a6ff);
+  min-height: 100vh;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.container {
+  margin: 60px auto;
+  padding: 30px;
+  max-width: 440px;
+  background: #fff;
+  border-radius: 15px;
+  box-shadow: 0 8px 32px rgba(44, 70, 244, 0.16);
+  text-align: center;
+}
+
+input, button {
+  width: 90%;
+  padding: 12px;
+  margin: 10px auto;
+  border-radius: 6px;
+  border: 1px solid #ddd;
+}
+
+button {
+  background: #3a86ff;
+  color: #fff;
+  font-weight: bold;
+  cursor: pointer;
+  outline: none;
+  border: none;
+  margin-top: 7px;
+  transition: background 0.25s;
+}
+
+button:hover {
+  background: #2654c8;
+}
+
+.card-list {
+  display: flex;
+  flex-direction: column;
+  gap: 23px;
+  margin: 25px auto 0 auto;
+}
+
+.weather-card {
+  border-radius: 16px;
+  padding: 25px 20px 20px 20px;
+  color: #fff;
+  font-size: 22px;
+  box-shadow: 0 4px 18px 0 rgba(0,0,0,0.09);
+  text-align: center;
+  position: relative;
+  transition: box-shadow 0.3s;
+}
+
+.weather-card .icon {
+  font-size: 36px;
+  margin-bottom: 8px;
+  display: block;
+}
+
+/* Color styles for cards */
+.sunny {
+  background: linear-gradient(135deg, #fdc830, #f37335);
+}
+.sunny.glow {
+  box-shadow: 0 0 25px 8px #ffd70079;
+}
+.rainy {
+  background: linear-gradient(135deg, #38b6ff, #0061a8);
+}
+.rainy.glow {
+  box-shadow: 0 0 25px 8px #38b6fff0;
+}
+.humidity {
+  background: linear-gradient(135deg, #292929 90%, #a2a2a2 100%);
+}
+.humidity.glow {
+  box-shadow: 0 0 25px 8px #b5b5b5b0;
+}
+
+/* Warning message style */
+#warning-message {
+  color: #e84141;
+  font-weight: bold;
+  margin-top: 20px;
+}
+.card-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin: 22px 0 0 0;
+  width: 98%;
+}
+
+.weather-bar {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  border-radius: 8px;
+  padding: 10px 0 10px 14px;
+  min-height: 34px;
+  width: 98%;
+  max-width: 400px;
+  margin: 0 auto;
+  color: #fff;
+  font-size: 1.08em;
+  box-shadow: 0 2px 7px 0 rgba(0,0,0,0.08);
+  transition: box-shadow 0.22s;
+}
+
+.weather-bar .icon {
+  font-size: 22px;
+  margin-right: 18px;
+}
+
+.bar-title {
+  font-weight: bold;
+  width: 110px;
+}
+
+.bar-value {
+  font-size: 1em;
+}
+
+.sunny    { background: linear-gradient(90deg, #ffe259, #ffa751); color: #7e5200;}
+.sunny.glow { box-shadow: 0 0 18px 5px #ffd70099;}
+.humidity { background: linear-gradient(90deg, #434343, #666); color: #caf0f8;}
+.humidity.glow { box-shadow: 0 0 18px 5px #fff3;}
+.rainy    { background: linear-gradient(90deg, #38b6ff, #5ee7df); color: #134766;}
+.rainy.glow { box-shadow: 0 0 18px 5px #38b6fff0;}
+
+#warning-message {
+  color: #e84141;
+  font-weight: bold;
+  margin-top: 18px;
+}
